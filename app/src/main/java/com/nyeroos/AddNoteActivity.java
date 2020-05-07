@@ -31,7 +31,7 @@ public class AddNoteActivity extends AppCompatActivity {
         numberPickerPriority = findViewById(R.id.number_picker_priority);
 
         numberPickerPriority.setMinValue(1);
-        numberPickerPriority.setMinValue(10);
+        numberPickerPriority.setMaxValue(10);
 
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
 
